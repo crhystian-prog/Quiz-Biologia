@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box
+}
+
+.app{
+    background-image: none;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 700px;
+    margin: 100px auto 0;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+    background-image: url('https://www.mundocuriosidade.com.br/wp-content/uploads/2024/06/Curiosidades-Amazonia-Rios-e-afluentes.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.app h1{
+    font-size: 60px;
+}
+
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+#next-btn{
+    background: #ffffff;
+    color: #222;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+    border-radius: 5px;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
+
+.start-screen {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+}
+
+#start-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+#start-btn:hover {
+    background-color: #218838;
+}
